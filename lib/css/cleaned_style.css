@@ -1,0 +1,707 @@
+/*! CSS Used from: http://netbug.lan/zahlenspiel/lib/css/style.css */
+
+section {
+    display: block;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: inherit;
+}
+
+button {
+    border-radius: 0;
+}
+
+button {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button {
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+}
+
+body {
+    font-family: "Press Start 2P";
+}
+
+body {
+    font-size: 16px;
+    color: #212529;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+button {
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0, pointer;
+}
+
+.nes-btn,
+.nes-table.is-bordered {
+    border-style: solid;
+    border-width: 4px;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution:0.001dpcm) {
+
+}
+
+.nes-btn:focus {
+    box-shadow: 0 0 0 6px rgba(173, 175, 188, .3);
+}
+
+.nes-btn.is-primary {
+    color: #fff;
+    background-color: #209cee;
+}
+
+.nes-btn.is-primary::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: "";
+    box-shadow: inset -4px -4px #006bb3;
+}
+
+.nes-btn.is-primary:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #108de0;
+}
+
+.nes-btn.is-primary:hover::after {
+    box-shadow: inset -6px -6px #006bb3;
+}
+
+.nes-btn.is-primary:focus {
+    box-shadow: 0 0 0 6px rgba(0, 107, 179, .3);
+}
+
+.nes-btn.is-primary:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #006bb3;
+}
+
+.nes-container {
+    position: relative;
+    padding: 1.5rem 2rem;
+    border-color: #000;
+    border-style: solid;
+    border-width: 4px;
+}
+
+.nes-container>:last-child {
+    margin-bottom: 0;
+}
+
+.nes-container.is-centered {
+    text-align: center;
+}
+
+.nes-container.with-title>.title {
+    display: table;
+    padding: 0 .5rem;
+    margin: -1.8rem 0 1rem;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+.nes-container.with-title.is-centered>.title {
+    margin: -2rem auto 1rem;
+}
+
+.nes-table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.nes-table {
+    table-layout: fixed;
+    background-color: #fff;
+}
+
+.nes-table tr {
+    margin-left: -.25em;
+}
+
+.nes-table td,
+.nes-table th {
+    position: relative;
+    padding: .5rem;
+    word-wrap: break-word;
+    border-color: #212529;
+    border-style: solid;
+    border-width: 0 .25em .25em 0;
+}
+
+.nes-table td:last-child,
+.nes-table th:last-child {
+    border-right-width: 0;
+}
+
+.nes-table td::after,
+.nes-table td::before,
+.nes-table th::after,
+.nes-table th::before {
+    position: absolute;
+    display: block;
+    width: .25em;
+    height: .25em;
+    content: "";
+    background-color: #212529;
+}
+
+.nes-table td::after,
+.nes-table th::after {
+    bottom: -.25em;
+    left: -.25em;
+}
+
+.nes-table td::before,
+.nes-table th::before {
+    top: -.25em;
+    right: -.25em;
+}
+
+.nes-table td:last-child::before,
+.nes-table th:last-child::before {
+    top: initial;
+    bottom: -.25em;
+}
+
+.nes-table.is-bordered {
+    margin: 4px;
+    border-spacing: 0;
+    border-collapse: separate;
+    border-image-slice: 2;
+    border-image-width: 2;
+    border-image-repeat: stretch;
+    border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
+    border-image-outset: 2;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution:0.001dpcm) {
+    .nes-table.is-bordered {
+        border-image-repeat: space;
+    }
+}
+
+.nes-table tbody tr:last-child td {
+    border-bottom-width: 0;
+}
+
+.nes-table tbody tr:last-child td:first-child::after,
+.nes-table tbody tr:last-child td:last-child::before {
+    display: none;
+}
+
+/*! CSS Used from: http://netbug.lan/zahlenspiel/lib/css/custom.css */
+
+@media screen and (max-width: 768px) {
+    @media screen and (max-width: 580px) {
+        #nescss > .container {
+            margin-top: 190px;
+        }
+    }
+}
+
+/*! CSS Used fontfaces */
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nYivNm4I81PZQ.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nRivNm4I81PZQ.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nWivNm4I81PZQ.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nbivNm4I81PZQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/*! CSS Used from: http://netbug.lan/zahlenspiel/lib/css/style.css */
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+header,
+main {
+    display: block;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+button {
+    border-radius: 0;
+}
+
+button,
+input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button {
+    text-transform: none;
+}
+
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+    padding: 0;
+    border-style: none;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+body {
+    font-family: "Press Start 2P";
+}
+
+body {
+    font-size: 16px;
+    color: #212529;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+label {
+    cursor: inherit;
+}
+
+button {
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0, pointer;
+}
+
+[type=submit],
+button {
+    -webkit-appearance: none;
+}
+
+.nes-btn,
+.nes-input {
+    border-style: solid;
+    border-width: 4px;
+}
+
+.nes-btn {
+    border-image-slice: 2;
+    border-image-width: 2;
+    border-image-repeat: stretch;
+    border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
+    border-image-outset: 2;
+    position: relative;
+    display: inline-block;
+    padding: 6px 8px;
+    margin: 4px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAzElEQVRYR+2X0Q6AIAhF5f8/2jYXZkwEjNSVvVUjDpcrGgT7FUkI2D9xRfQETwNIiWO85wfINfQUEyxBG2ArsLwC0jioGt5zFcwF4OYDPi/mBYKm4t0U8ATgRm3ThFoAqkhNgWkA0jJLvaOVSs7j3qMnSgXWBMiWPXe94QqMBMBc1VZIvaTu5u5pQewq0EqNZvIEMCmxAawK0DNkay9QmfFNAJUXfgGgUkLaE7j/h8fnASkxHTz0DGIBMCnBeeM7AArpUd3mz2x3C7wADglA8BcWMZhZAAAAAElFTkSuQmCC) 14 0, pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #212529;
+    background-color: #fff;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution:0.001dpcm) {
+    .nes-btn {
+        border-image-repeat: space;
+    }
+}
+
+.nes-btn::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: "";
+    box-shadow: inset -4px -4px #adafbc;
+}
+
+.nes-btn:hover {
+    color: #212529;
+    text-decoration: none;
+    background-color: #e7e7e7;
+}
+
+.nes-btn:hover::after {
+    box-shadow: inset -6px -6px #adafbc;
+}
+
+.nes-btn:focus {
+    box-shadow: 0 0 0 6px rgba(173, 175, 188, .3);
+}
+
+.nes-btn:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #adafbc;
+}
+
+.nes-btn:focus {
+    outline: 0;
+}
+
+.nes-btn.is-error {
+    color: #fff;
+    background-color: #e76e55;
+}
+
+.nes-btn.is-error::after {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    bottom: -4px;
+    left: -4px;
+    content: "";
+    box-shadow: inset -4px -4px #8c2022;
+}
+
+.nes-btn.is-error:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ce372b;
+}
+
+.nes-btn.is-error:hover::after {
+    box-shadow: inset -6px -6px #8c2022;
+}
+
+.nes-btn.is-error:focus {
+    box-shadow: 0 0 0 6px rgba(140, 32, 34, .3);
+}
+
+.nes-btn.is-error:active:not(.is-disabled)::after {
+    box-shadow: inset 4px 4px #8c2022;
+}
+
+.nes-input {
+    border-image-slice: 2;
+    border-image-width: 2;
+    border-image-repeat: stretch;
+    border-image-source: url('data:image/svg+xml;utf8,<?xml version="1.0" encoding="UTF-8" ?><svg version="1.1" width="5" height="5" xmlns="http://www.w3.org/2000/svg"><path d="M2 1 h1 v1 h-1 z M1 2 h1 v1 h-1 z M3 2 h1 v1 h-1 z M2 3 h1 v1 h-1 z" fill="rgb(33,37,41)" /></svg>');
+    border-image-outset: 2;
+    width: 100%;
+    padding: .5rem 1rem;
+    margin: 4px;
+    background-clip: padding-box;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 0) and (min-resolution:0.001dpcm) {
+    .nes-input {
+        border-image-repeat: space;
+    }
+}
+
+/*! CSS Used from: http://netbug.lan/zahlenspiel/lib/css/custom.css */
+
+@media screen and (max-width: 768px) {
+    @media screen and (max-width: 580px) {
+        #nescss > .container {
+            margin-top: 190px;
+        }
+    }
+}
+
+/*! CSS Used fontfaces */
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nYivNm4I81PZQ.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nRivNm4I81PZQ.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nWivNm4I81PZQ.woff2) format('woff2');
+    unicode-range: U+0370-03FF;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nbivNm4I81PZQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK3nVivNm4I81.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+body {
+    padding: 0 2rem;
+    margin: 0 2rem;
+}
+
+#nescss > .container {
+    max-width: 980px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    border-bottom: 4px solid #D3D3D3;
+    background-color: white;
+}
+
+header > .container {
+    display: flex;
+    align-items: baseline;
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    transition: all 0.2s ease;
+}
+
+header > .container > .nav-brand {
+    margin-right: auto;
+}
+
+header > .container > .social-button {
+    margin-left: auto;
+}
+
+.nav-brand .brand-logo {
+    margin-right: 1rem;
+}
+
+.nav-brand > a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.social-buttons p {
+    margin-bottom: 0;
+}
+
+/* Header-sticky */
+
+header.sticky > .container {
+    font-size: 0.8rem;
+    padding: 0;
+    align-items: center;
+}
+
+header.sticky .nav-brand h1 {
+    margin: 0;
+}
+
+header.sticky .nav-brand p {
+    display: none;
+    margin-bottom: 0;
+    font-size: 0.6rem;
+}
+
+/* Main */
+
+.main-content {
+    margin-bottom: 4rem;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+h2 > a {
+    margin-right: 1rem;
+}
+
+.topic {
+    margin-bottom: 3rem;
+}
+
+.nes-btn.showcode {
+    position: absolute;
+    font-size: 12px;
+    bottom: 0px;
+    right: -4px;
+}
+
+.nes-btn.copycode {
+    position: absolute;
+    font-size: 12px;
+    top: 0;
+    right: 0px;
+}
+
+.item {
+    margin-bottom: -1rem;
+}
+
+.item > * {
+    margin-bottom: 1.5rem !important;
+}
+
+/* Containers */
+
+.item.containers > .nes-container {
+    display: inline-block;
+    max-width: 400px;
+}
+
+/* Copied balloon */
+
+.nes-balloon.copied-balloon {
+    position: absolute;
+    display: none;
+    padding: 1rem;
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, .6);
+    z-index: 1;
+}
+
+/* Topic */
+
+h3.topic-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+h3.topic-title > i {
+    margin-right: 1.5rem;
+}
+
+@media screen and (max-width: calc(980px - 4rem)) {
+    header > .container {
+        margin: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 2rem 0.5rem;
+        padding: 0;
+    }
+
+    header > .container {
+        margin: 0 0.5rem;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    #nescss > .container {
+        margin-top: 190px;
+    }
+}
